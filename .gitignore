@@ -1,0 +1,4 @@
+# Project exclude paths
+/voting/src/components/ConfessionWindow.js
+/voting/src/App.js
+/voting/src/main.js

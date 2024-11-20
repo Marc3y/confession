@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow: hidden;
+}
+
+#ConfessionInput::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#ConfessionInput::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.1);
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 15px;
+    cursor: default;
+}
+
+#ConfessionInput::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.1);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: default;
+}
+#ConfessionInput::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.2);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: default;
+}
